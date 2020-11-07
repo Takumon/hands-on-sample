@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 });
 
 const LoginPage: React.FC = () => {
-  // const navigation = useNavigation();
+  const navigation = useNavigation();
 
   return (
     <SafeAreaView>
@@ -27,7 +27,7 @@ const LoginPage: React.FC = () => {
         <TextInput style={styles.form} onChangeText={(text) => console.log('Password Form: ' + text)} />
       </View>
 
-      <Button onPress={() => console.log('Login Button: clicked!')} title="ログイン" />
+      <Button onPress={() => navigation.navigate('PointViewPage')} title="ログイン" />
 
       <Button onPress={() => console.log('Forgot Password: clicked!')} title="パスワードを忘れた方はこちら" />
 
