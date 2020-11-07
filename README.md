@@ -8,7 +8,7 @@
 - AppNavigator
   - ReactNavigationの使い方が古かったので最新版(v5)の書き方に変更
 - LoginPage
-  - iOSで表示するとノッチ部分に「TopPage」が隠れてしまうので大枠のタグをViewからSafeAreaViewに変更
+  - iOSで表示するとノッチ部分にページが隠れてしまうので大枠のタグをViewからSafeAreaViewに変更
   - navigationはpropsから受け取らずuseNavigationを使うように変更
 - 確認観点
   - Login画面
@@ -30,7 +30,7 @@
 - AppNavigator
   - ReactNavigationの使い方が古かったので最新版(v5)の書き方に変更
 - PointViewPage
-  - iOSで表示するとノッチ部分に「TopPage」が隠れてしまうので大枠のタグをViewからSafeAreaViewに変更
+  - iOSで表示するとノッチ部分にページが隠れてしまうので大枠のタグをViewからSafeAreaViewに変更
   - navigationはpropsから受け取らずuseNavigationを使うように変更
 - 確認観点
   - Login画面
@@ -41,7 +41,21 @@
     - ログアウトボタンを押すとLogin画面に遷移する
 
 ## v0.3.0...v0.4.0
+
 - 確認観点
   - PointView画面
     - レイアウトが以下のようになっている
       - ![実装完了時の画面スクショ](./images/v0.4.0_pointview.png)
+
+## v0.4.0...v0.5.0
+
+- PointHistoryPage
+  - iOSで表示するとノッチ部分にページが隠れてしまうので大枠のタグをViewからSafeAreaViewに変更
+  - navigationはpropsから受け取らずuseNavigationを使うように変更
+- 確認観点
+  - PointView画面
+    - ポイント実績ボタンを押すとPointHistory画面に遷移する
+  - PointHistory画面
+    - レイアウトが以下のようになっている
+      - ![実装完了時の画面スクショ](./images/v0.5.0_pointhistory.png)
+    - 戻るボタンを押すとPointView画面に遷移する

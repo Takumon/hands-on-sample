@@ -2,8 +2,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
 
-import {LoginPage} from '../components/pages';
-import PointViewPage from '../components/pages/PointViewPage';
+import {LoginPage, PointViewPage, PointHistoryPage} from '../components/pages';
 
 const Stack = createStackNavigator();
 
@@ -13,6 +12,7 @@ const AppNavigator: React.FC = () => {
       <Stack.Navigator initialRouteName="LoginPage" headerMode="none">
         <Stack.Screen name="LoginPage" component={LoginPage} />
         <Stack.Screen name="PointViewPage" component={PointViewPage} />
+        <Stack.Screen name="PointHistoryPage" component={PointHistoryPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );

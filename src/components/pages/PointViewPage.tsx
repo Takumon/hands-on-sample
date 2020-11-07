@@ -39,7 +39,12 @@ const PointViewPage: React.FC = () => {
         </View>
       </View>
 
-      <Button title="ポイント実績" onPress={() => console.log('PointHistoryPage clicked!')} />
+      <Button
+        title="ポイント実績"
+        onPress={() => {
+          navigation.navigate('PointHistoryPage');
+        }}
+      />
 
       <Button title="ログアウト" onPress={() => navigation.navigate('LoginPage')} />
     </SafeAreaView>
