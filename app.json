@@ -1,0 +1,12 @@
+{
+  "name": "HansOnSample",
+  "displayName": "HansOnSample",
+  "expo": {
+    "name": "HansOnSample",
+    "slug": "HansOnSample",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
