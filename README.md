@@ -12,3 +12,9 @@
   - navigationはpropsから受け取らずuseNavigationを使うように変更
 
 ![実装完了時の画面スクショ](./images/v0.1.0.png)
+
+
+## v0.1.0...v0.1.0
+- 特になし
+
+![実装完了時の画面スクショ](./images/v0.2.0.png)
